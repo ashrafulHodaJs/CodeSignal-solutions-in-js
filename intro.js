@@ -131,6 +131,27 @@ function solution(n) {
 
     return firstSum === secondSum;
 }
-//problem11
+//problem12
+
+//problem13
+
+//problem14(very easy)
+function solution (a){
+    let sumOne=0;
+    let sumTwo=0;
+    for(let i=0; i<a.length; i++){
+        if(i%2==0){
+            sumOne += a[i]; 
+        }else{
+            sumTwo += a[i]
+        }
+    }
+    return [sumOne, sumTwo];
+}
+//problem15
+
+
+
+
 
 
